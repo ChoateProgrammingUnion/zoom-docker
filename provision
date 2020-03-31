@@ -1,5 +1,5 @@
 git clone https://github.com/ChoateProgrammingUnion/zoom-coordinator
-mkdir mariadb/db
+mkdir -p mariadb/db
 mkdir nginx/letsencrypt
 mkdir nginx/cache
 mkdir nginx/error.log
