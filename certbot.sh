@@ -1,0 +1,1 @@
+docker run -it --rm       -v /home/ubuntu/nginx/letsencrypt:/etc/letsencrypt       -v /home/ubuntu/nginx/www:/data/letsencrypt       deliverous/certbot       certonly       --webroot --webroot-path=/data/letsencrypt --cert-name Zoom -d zoom.choate.edu 

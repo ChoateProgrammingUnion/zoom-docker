@@ -1,0 +1,4 @@
+mariadb/db/*
+nginx/cache/*
+nginx/error.log/*
+nginx/letsencrypt/*
